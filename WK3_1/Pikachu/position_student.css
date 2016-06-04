@@ -1,0 +1,249 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/* CSS reset ends*/
+
+.wrap {
+    background: #fcd329;
+    position: relative;
+    width: 1366px;
+    height: 768px;
+    top: -10px;
+    left: -10px;
+    font-family: Helvetica;
+}
+
+.circle1 {
+    box-sizing: border-box;
+    background-size: 20%;
+    background-color: #bb6894;
+    text-align: center;
+    font-size: 1.5em;
+    color: #FFCC66;
+    width: 190px;
+    height: 190px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 50%;
+    position: absolute;
+    top: -10px;
+    left: 380px;
+}
+
+.circle2 {
+    box-sizing: border-box;
+    background-color: #6f164c;
+    text-align: center;
+    color: #fff;
+    font-size: 80%;
+    width: 200px;
+    height: 200px;
+    padding-top: 50px;
+    padding-left: 30px;
+    border-radius: 50%;
+    position: absolute;
+    top: 180px;
+    left: 290px;
+}
+
+.circle3 {
+    box-sizing: border-box;
+    padding: 5%;
+    color: #6f164c;
+    background-color: #fff;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    position: absolute;
+    top: 150px;
+    left: 460px;
+    text-align: center;
+    font-size: 1em;
+}
+
+.circle4 {
+    box-sizing: border-box;
+    background-color: #fff;
+    background-image: url(pika2.jpg);
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position: center;
+    padding-top: 30px;
+    padding-left: 30px;
+    width: 190px;
+    height: 190px;
+    border-radius: 50%;
+    position: absolute;
+    top: 85px;
+    left: 760px;
+}
+
+.circle5 {
+    box-sizing: border-box;
+    background-color: #6f164c;
+    background-image: url(fb.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 40%;
+    width: 75px;
+    height: 75px;
+    padding-top: 11px;
+    border-radius: 50%;
+    position: fixed;
+    right: 200px;
+    bottom: 150px;
+    text-align: center;
+    color: #fff;
+    font-size: 0.8em;
+}
+
+.circle6 {
+    box-sizing: border-box;
+    background-color: #bb6894;
+    color: #FFCC66;
+    text-align: center;
+    width: 150px;
+    height: 150px;
+    padding-top: 40px;
+    padding-left: 15px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 140px;
+    left: 390px;
+}
