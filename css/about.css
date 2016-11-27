@@ -1,0 +1,286 @@
+.rice_avatar {
+	width: 418px;
+	margin-left: 43px;
+}
+.avatar_ic {
+	width: 43px;
+	position: relative;
+    right: 235px;
+    top: 11px;
+    transition: all 0.2s ease-out;
+	-webkit-transition: all 0.2s ease-out;
+	-moz-transition: all 0.2s ease-out;
+	-o-transition: all 0.2s ease-out;
+}
+.cv_download {
+	width: 100%;
+	display: block;
+}
+.cv_download_container {
+  position: relative;
+  margin:70px auto;
+  text-align: center;
+  width: 280px;
+  color: #ffffff;
+  font-family: "Proxima Nova", "PingFang TC", "Helvetica Neue", "Helvetica", "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  background: #00D598;
+  
+  border-radius: 2px;
+  padding: 24px 96px;
+  cursor: pointer;
+  transition: all 0.2s ease-out;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+}
+.cv_download_container:hover {
+	transform: scale(1.1);
+	box-shadow: 0px 8px 20px 0px rgba(2,2,2,0.23);
+}
+.cv_top h3 {
+	font-family: "Proxima Nova", "PingFang TC", "Helvetica Neue", "Helvetica", "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
+  font-weight: 600;
+	font-size: 46px;
+	color: #2e2e2e;
+	line-height: 1.2em;
+	margin-top: 37px;
+}
+.cv_page {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding-top: 50px;
+    background: url("../images/about_bg.svg") 0 0 no-repeat;
+    background-size: 110% auto;
+  	overflow: hidden;
+    /*background-attachment: fixed;*/
+}
+
+
+/* links */
+.about_links { 
+	width: 100%;
+	margin: 0 auto;
+}
+.about_links:before {
+	content: '';
+	display: inline-block;
+	vertical-align: middle ;
+	height: 100%;
+}
+.about_links a { 
+	border: 0; 
+	margin-right: 12px; 
+	display: inline-block; 
+	width: 48px; 
+	height: 48px; 
+	line-height: 48px; 
+	font-size: 20px; 
+	text-align: center;
+	color: #aaa;  
+	transition: transform 200ms ease-in-out, color 200ms ease-in-out; 
+	-webkit-transition: transform 200ms ease-in-out, color 200ms ease-in-out; 
+	transform: scale(1); -ms-transform: scale(1); /* IE 9 */	
+	-webkit-transform: scale(1); /* Safari */
+}
+
+
+
+.links a:hover { 
+	color: #00D598; 
+	transform: scale(1.1);
+}
+
+
+
+.cv_item {
+	width: 100%;
+  	margin: 100px auto;
+
+}
+
+.cv_title {
+    display: block;
+    float: left;
+    vertical-align: top;
+    width: 20%;
+    color: #4E4E4E;
+    text-transform: uppercase;
+    font-family: "Proxima Nova", "PingFang TC", "Helvetica Neue", "Helvetica", "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
+  	font-weight: 600;
+    font-size: 16px;
+    margin: 0;
+    padding: 0 50px 0 10px;
+    line-height: 24px;
+    text-align: right;
+}
+
+.cv_content {
+    display: inline-block;
+    vertical-align: top;
+    width: 80%;
+    color: #888;
+    margin-top: -10px;
+    font-family: "Proxima Nova", "PingFang TC", "Helvetica Neue", "Helvetica", "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
+  	font-weight: 400;
+    font-size: 16px;
+    line-height: 38px;
+}
+.cv_content ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.bullet li {
+    list-style-position: outside;
+    margin-left: 15px;
+    list-style-type: circle;
+}
+.cv_content .bold {
+    color: #444;
+    font-family: "Proxima Nova", "PingFang TC", "Helvetica Neue", "Helvetica", "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
+  	font-weight: 700;
+}
+.cv_content .light {
+    color: #bbb;
+    font-size: 14px;
+    font-family: "Proxima Nova", "PingFang TC", "Helvetica Neue", "Helvetica", "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
+  	font-weight: 300;
+    line-height: 24px;
+}  
+
+
+.cv_big {
+    display: inline-block;
+    vertical-align: top;
+    width: 80%;
+    color: #4E4E4E;
+    font-size: 40px;
+    line-height: 60px;
+    font-family: "Proxima Nova", "PingFang TC", "Helvetica Neue", "Helvetica", "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
+  font-weight: 700;
+}
+
+@media screen and (min-width: 768px) and (max-width: 979px) {
+    /* 如果使用者之視窗寬度介於 768px ~ 979px，將會再載入這裡的 CSS。 */ 
+    .cv_big {
+    	width: 100%;
+    	text-align: center;
+    }
+	.cv_title {
+	    width: 100%;
+	    text-align: center;
+	    font-size: 24px;
+	    padding: 0 25px 0 25px;
+	}
+	.cv_content {
+	    width: 100%;
+	    margin-top: 40px;
+	}
+	.about_links { 
+		width: 100%;
+		text-align: center;
+		margin: 0 auto;
+	}
+}
+
+@media screen and (min-width: 415px) and (max-width: 767px) {
+	
+	.rice_avatar {
+		width: 350px;
+		margin-left: 10px;
+	}
+	.cv_item {
+		width: 100%;
+	  	margin: 70px auto;
+	}
+	.container_works {
+		padding: 0 25px;
+	}
+	.cv_big {
+    	width: 100%;
+    	text-align: center;
+    	font-size: 28px;
+    	line-height: 42px;
+    }
+	.cv_page {
+	    width: 100%;
+	    padding: 0 10%;
+	}
+	.cv_title {
+		font-size: 24px;
+	    width: 100%;
+	    text-align: center;
+	    padding: 0 25px 0 25px;
+	}
+	.cv_content {
+	    width: 100%;
+	    margin-top: 40px;
+	}
+	.about_links { 
+		width: 100%;
+		text-align: center;
+		margin: 0 auto;
+	}
+	.about_links a {
+		font-size:18px;
+	}
+}
+
+
+
+@media screen and (min-width: 321px) and (max-width: 414px) {
+	.cv_page {
+	    width: 100%;
+	    padding: 0 10%;
+	}
+	.rice_avatar {
+		width: 250px;
+		margin-left: 22px;
+	}
+	.avatar_ic {
+		width: 23px;
+	    right: 142px;
+	    top: 6px;
+	}
+	.cv_item {
+		width: 100%;
+	  	margin: 50px auto;
+	}
+	.cv_big {
+    	display: none;
+    }
+    #cv_logo {
+    	display: none;
+    }
+	.cv_title {
+	    width: 100%;
+	    text-align: left;
+	    padding: 0 25px 0 0px;
+	}
+	.cv_content {
+	    width: 100%;
+	    margin-top: 30px;
+	}
+	.about_links { 
+		width: 100%;
+		text-align: center;
+		margin: 0 auto;
+	}
+	.about_links a {
+		font-size:18px;
+	}
+}
+@media screen and (max-width: 320px) {
+	.rice_avatar {
+	    margin-left: 7px;
+	}
+	.avatar_ic {
+	    right: -4px;
+	    top: -12px;
+	}
+}
+
+
